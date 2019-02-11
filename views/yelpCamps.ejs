@@ -1,0 +1,71 @@
+<% include partials/header %>
+
+
+<div class="container">
+  <div class="jumbotron">
+     <div class="container"> 
+    <h1> Welcome to Yelp Camp Folks ! </h1>
+    <p> The best camp grounds chosen only for you </p>
+    <a class=" btn btn-primary btn-lg" href="/Camps/new"><h4>Add a new camp site</h4></a>
+  </div>
+    </div>
+
+
+
+<div class="row" style="display:flex; flex-wrap: wrap;">
+    <% camping_grounds.forEach(function(camp){ %>
+    <div class="col-md-3 col-sm-6">
+        <div class="thumbnail">
+        <!--<h4> <%= camp["name"] %> </h4>-->
+        <img src="<%= camp["image"] %>">
+        <div class="caption">
+           <h4> <%= camp["name"] %> </h4>
+        </div>
+        
+        <a href="/campgrounds/<%= camp._id %>" class="btn btn-primary">More info</a>
+        
+        </div>
+    </div>
+    <% }); %>
+</div>
+
+</div>
+
+
+
+<% include partials/footer %><% include partials/header %>
+
+
+<div class="container">
+  <div class="jumbotron">
+     <div class="container"> 
+    <h1> Welcome to Yelp Camp Folks ! </h1>
+    <p> The best camp grounds chosen only for you </p>
+    <a class=" btn btn-primary btn-lg" href="/Camps/new"><h4>Add a new camp site</h4></a>
+  </div>
+    </div>
+
+
+
+<div class="row" style="display:flex; flex-wrap: wrap;">
+    <% camping_grounds.forEach(function(camp){ %>
+    <div class="col-md-3 col-sm-6">
+        <div class="thumbnail">
+        <!--<h4> <%= camp["name"] %> </h4>-->
+        <img src="<%= camp["image"] %>">
+        <div class="caption">
+           <h4> <%= camp["name"] %> </h4>
+        </div>
+        
+        <a href="/campgrounds/<%= camp._id %>" class="btn btn-primary">More info</a>
+        
+        </div>
+    </div>
+    <% }); %>
+</div>
+
+</div>
+
+
+
+<% include partials/footer %>

@@ -1,0 +1,27 @@
+<% include partials/header %>
+<h1> This is the page for adding new camps </h1>
+
+<div class="container mt-4">
+ <div class="row m-4">
+    <form  action="/Camps" class="col-md-3" method="POST">
+     <div class="form-group">
+               <input type="text" class="form-control m-4" name="name" placeholder = "name" />
+     </div>
+     <div class="form-group">
+               <input type="text" class="form-control" name="image" placeholder = "image">
+      </div>      
+      <div class="form-group">
+               <input type="text" class="form-control" name="camp_desc" placeholder ="description">
+      </div> 
+     <div class="form-group">
+               <input class="btn btn-default btn-block btn-primary rounded" type="submit" value="Submit"/>
+      </div>         
+    </form>
+   
+ </div>
+ 
+</div>
+<div>
+    <a href="/Camps">Back To yelp camps </a> 
+    </div>
+<% include partials/footer %>

@@ -1,0 +1,21 @@
+{
+  "name": "yelpcamp-v1",
+  "version": "1.0.0",
+  "description": "yelpcamp version 1",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "not yet"
+  },
+  "author": "pradeep grandhi",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.6",
+    "request": "^2.88.0"
+  }
+}
