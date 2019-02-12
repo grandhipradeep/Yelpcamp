@@ -15,7 +15,7 @@
   "dependencies": {
     "ejs": "^2.6.1",
     "express": "^4.16.4",
-    "mongoose": "^5.4.1",
-    "request1": "^2.88.5",
+    "mongoose1": "^5.4.1",
+    "request3": "^2.88.6",
   }
 }
